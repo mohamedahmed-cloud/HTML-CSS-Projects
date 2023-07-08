@@ -1,0 +1,88 @@
+.navsocial i {
+    display: none;
+}
+.navsocial {
+    display: none;
+}
+
+
+/*Smalldevices(landscapephones,576pxandup)*/
+@media(min-width:576px){
+	nav.nav-1 {
+        font-size:15px;
+    }
+    .sec-1 h4 {
+        font-size:1.3rem
+    }
+    .sec-1 h3 {
+        font-size:2rem;
+        margin:0px;
+    }
+    .sec-1 h1 {
+        font-size: 2.6rem;
+    }
+    
+}
+/*Mediumdevices(tablets,768pxandup)*/
+@media(min-width:768px){
+	.navsocial i {
+        display: block;
+
+    }
+    .sec-1 h4 {
+        font-size:1.6rem
+    }
+    .sec-1 h3 {
+        font-size:2.5rem;
+        margin:0px;
+    }
+    .sec-1 h1 {
+        font-size: 3.5rem;
+        padding-bottom: 15px;
+    }
+    .sec-3 .card {
+        width:calc((100% - 80px)/2);
+    }
+   
+}
+/*Largedevices(lap,992pxandup)*/
+@media(min-width:992px){
+
+    .sec-3 .card {
+        width:calc((100% - 120px)/2);
+     
+    }
+    .sec-4  .select:after {
+        width:49%;
+    }
+  
+}
+/*Extralargedevices(largedesktops,1200pxandup)*/
+@media(min-width:1200px){
+
+    .sec-3 .card {
+        width:calc((100% - 100px)/4);
+    }
+    .sec-4  .select:after {
+        width:100%;
+    }
+    /* .sec-5 .row{
+        background-color: red;
+    } */
+    .sec-5 .left img{
+        width:100%;
+        margin-bottom: 4px;
+        height: 100%;;
+    }
+    .sec-5 .right img {
+        width:100%;
+        height:calc(50% - 2px);
+        margin-bottom:4px;
+    }
+} 
+@media(min-width:1400px){
+}
+
+
+
+

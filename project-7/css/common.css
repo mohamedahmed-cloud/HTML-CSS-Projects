@@ -1,0 +1,33 @@
+:root {
+    --text-color:#ff9000;
+    --bg-color:#3a3e43;
+}
+
+.aupper {
+    text-transform: uppercase;
+}
+.commonheader {
+    margin:auto;
+    /* position:relative; */
+    text-align: center;
+
+
+}
+.commonheader:after {
+    content:"";
+    display: block;
+    height:3px;
+    width:20%;
+    background-color:#ff9000;
+    margin-bottom:50px;
+    margin:20px auto 80px auto;
+}
+.commonheader h3 {
+    text-transform: uppercase;
+    margin-bottom:30px;
+}
+[for="check"] {
+    cursor: pointer;
+}
+
+

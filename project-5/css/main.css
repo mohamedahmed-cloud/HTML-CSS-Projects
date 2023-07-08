@@ -1,0 +1,30 @@
+/* Repeated Class */
+.btn {
+    display:block;
+    width:200px;
+    color:#fff;
+    background-color: #f9b700;
+    padding:10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin:20px 20px 20px 0px;
+    text-align: center;
+
+}
+.upper {
+    text-transform: uppercase;
+}
+
+.clear {
+    clear:both;
+}
+/* margins */
+.m-30 {
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+/* Width */
+.w-98 {
+    width:100% !important;
+}

@@ -1,0 +1,372 @@
+/* Nav-1 */
+nav.nav-1 {
+    background-color: #ffcb0f;
+    font-size:11px;
+    padding:10px;
+}
+
+nav.nav-1 .right i:hover  {
+    cursor: pointer;
+    transform:scale(1.5) rotate(360deg);
+    color:#FF8B13;
+}
+html {
+    font-size: 16px;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+/* Nav -2 */
+.nav-2 {
+    background-color: #222533;
+    padding:10px;
+
+}
+.nav-2 .left h2  {
+    text-transform: uppercase;
+    font-size:1.1rem;
+    font-weight: bold;
+
+}
+.nav-2 .left h2 span {
+    color:#ffcb0f;
+    
+}
+.nav-2 .left p {
+    font-size:.6rem;
+}
+
+
+
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.nav-2 .right a:last-of-type {
+    color:#fff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size:.6rem;
+}
+.nav-2 .right a:last-of-type:hover {
+    transform: scale(1.05);
+    background-color: #F99417;
+    text-align: center;
+}   
+
+/* ------------------------------------------------- */
+/* Start sec-1 */
+section.sec-1 {
+    background: url(../images/banner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding:150px 0px;
+}
+.sec-1 .col p {
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+.sec-1 h4 {
+    font-size:.8rem
+}
+.sec-1 h3 {
+    font-size:1.3rem;
+    margin:0px;
+}
+.sec-1 h1 {
+    font-size: 2rem;
+}
+.sec-1 .inner button{
+    background-color: #000;
+    color:#ffcb0f;
+    border:1.5px solid #ffcb0f;
+    text-transform: uppercase;
+}
+.sec-1 .inner button:hover {
+    background-color: transparent;
+}
+
+
+/* End sec-1 */
+
+
+/* Start Sec-2 */
+.sec-2 {
+    padding:100px 0px;
+}
+.sec-2 .left {
+    margin-bottom:20px;
+}
+.sec-2 .left p {
+    color:#555;
+}
+.sec-2 .left h2 {
+    font-weight: bold;
+    color:#ffcb0f;
+}
+.sec-2 .left h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+/* End Sec-2 */
+
+/* Start section -3 */
+
+.sec-3 {
+    background: rgb(0,0,0,.4) url(../images/bg4.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+}
+.sec-3 .card {
+    background-color: rgb(32, 29, 22,.6);
+    color:white;
+    position: relative;
+    margin-top:60px;
+}
+.sec-3 h5 {
+    text-transform: uppercase;
+    font-size:.9rem;
+    font-weight:bold;
+}
+.sec-3 .select  {
+    position:absolute;
+    top:0%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:80px; 
+    width:80px;
+    background-color: #ffcb0f;
+    border-radius: 50%;
+}
+.sec-3 .select img {
+    width:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+/* End section -3 */
+
+
+/* Start Section 4 */
+
+.sec-4  {
+    padding:50px;
+}
+.sec-4 h2 {
+    color:#484848
+}
+
+.sec-4 .card {
+    border:none;
+    margin-bottom: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    padding:30px 0px;
+    position:relative;
+
+
+
+}
+.sec-4 .card p {
+    text-align:justify
+}
+.sec-4  .select div {
+    width: 100%;
+}
+.sec-4  .select div {
+    width:100%;
+    height:50%;
+}
+.sec-4 .row div.col-xl {
+    border: 1px solid #eee;
+}
+
+/* End Section 4 */
+
+
+/* Start Section 5 */
+
+.sec-5 {
+    background: rgb(42, 42, 42) url(../images/bg2.jpg);
+    background-blend-mode:overlay;
+    background-size:100% 100%
+}
+.sec-5 .navbar-nav {
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;  
+}
+.sec-5 [aria-current="page"] {
+    border-radius: 20px;
+    width:100px;
+}
+.sec-5  nav a:hover {
+    transform: scale(1.06);
+    color:#F99417 !important;
+    font-weight: bold ;
+}
+
+.sec-5 .row {
+    padding-top:40px; 
+}
+
+.sec-5 .left img{
+    width:100%;
+    margin-bottom: 4px;
+}
+.sec-5 .right img {
+    width:calc(50% - 3px);
+    margin-bottom:4px;
+}
+.sec-5 img:hover {
+    transform:scale(1.01);
+    border-radius: 12px;
+    background: #333333;
+    box-shadow:  25px 25px 49px #292929,
+                 -25px -25px 49px #3d3d3d;
+}
+/* End Section 5 */
+
+/* -------------------------------- */
+
+
+/* start section 6 */
+
+
+.sec-6 .card-1 {
+    background-color: #e5e5e5;
+    outline: none;
+    border: none;
+}
+.sec-6 .card-2 {
+    background-color: #ffcb0f;
+    outline: none;
+    border: none;
+}
+.sec-6 .allcard {
+    position: relative;
+}
+
+.sec-6 div.after {
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%,calc(100% + 20px));
+    text-align: center  ;
+}
+.sec-6 .card-body {
+    position: relative;
+}
+.sec-6 img.after {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #c8c3b7;
+}
+.sec-6 .card-body img.quote {
+    width:25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.sec-6 .bottom {
+    position:absolute;
+    bottom:1px;
+    left:50%;
+    transform: translate(-50%,100%);
+}
+.sec-6 h5 {
+    font-weight: bold;
+    font-size:16px
+}
+.sec-6 .allcard {
+    margin-bottom: 120px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* End section 6 */
+/* e5e5e5 */
+/* ---------------------------------------------- */
+
+
+
+.sec-7 {
+    background-color: #fedb5d;
+}
+.sec-7 .left h1 {
+    
+    color: #73757e;
+    font-weight: bold   ;
+    font-size:20px;
+    margin-bottom: 14px;
+}
+.sec-7 .left h2 {
+    color: #73757e;
+    font-weight: 400;
+    font-size:20px;
+}
+
+
+/* Start footer */
+footer {
+    padding:60px 0px;
+}
+footer .first{
+    margin-right:1.5rem;
+}
+footer .first-ul li:hover {
+    transform:rotate(-360deg) scale(1.2);
+    transition:.5s;
+}
+footer .second-ul li {
+    margin-bottom:4px;
+}
+footer .second-ul i{
+    display: inline-block;
+    margin-right:10px;
+    font-size: 10px;
+}
+footer .rd li i,
+footer .last-ul li i{
+    margin-right:10px;
+}
+footer .last-ul li {
+    margin-bottom: 9px;
+}
+
+.sec-8 {
+    background-color: #000;
+}
+
+
+/* End footer */
+
+
+
+
+
+
+
+
+
+
+
+

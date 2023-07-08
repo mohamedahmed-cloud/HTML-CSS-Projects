@@ -1,0 +1,545 @@
+/* Start import fonts */
+@font-face {
+	font-family: 'satisfy';
+	src: url('../fontfamily/satisfy.woff2') format('woff2');
+	src: url('../fontfamily/satisfy.woff') format('woff');
+	src: url('../fontfamily/satisfy.ttf') format('truetype');
+}
+/* End Import fonts */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.container{
+	margin-left: 15px;
+	margin-right: 15px;	
+}
+/* var  */
+
+:root {
+	--green:#7ab82f;
+	--white:#ffffff;
+	--font:'satisfy';
+	--sec-color:#f2f2f2;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* Start nav section */
+/* left part */
+nav {
+	background-color: #000;
+	font-family:'satisfy';
+	text-transform: capitalize;
+}
+nav .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+nav .container figure {
+	color:var(--green);
+	display: flex;
+	align-items: center;
+	width:36%;
+}
+nav .container figure img {
+	width:30px;
+	margin-right:10px;
+}
+
+
+
+
+
+
+
+
+/* right part */
+nav .container .small {
+	color:#EEE	;
+}
+nav input {
+	display: none;
+}
+nav input:checked + ul{
+	display: block;
+}
+nav .container ul {
+	width:100%;	
+	position:absolute;
+	background-color: rgba(167, 250, 66, 0.9);
+	top:60px;
+	left:50%;
+	transform: translate(-50%,0);
+	display: none;
+
+}
+nav .container ul li{
+	list-style-type: none;
+	text-align: center;
+	padding:10px;
+	border-bottom: 3px solid transparent;
+	/* background-color: #555; */
+}
+nav .container ul li:not(:first-child) {
+	margin-top: 10px;;
+}
+nav .container ul li a {
+	color:WHITE;
+	display: inline-block;
+	text-decoration: none ;
+	padding: 10px 20px;
+}
+nav .container ul li:hover{
+	background-color: #3D1766;
+	border-bottom: 3px solid #3D1766;
+}
+/* End nav */
+/* ------------------------------------------------------------------------ */
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Start sec-1 */
+
+.sec-1 {
+	background-image: url(../images/Banner-1.jpg);
+	background-size: cover;
+	background-position: 50% 20%;
+	padding:90px 0px;
+} 
+.sec-1 .container .inner{
+	width:min(400px ,100%);
+}
+.sec-1 h3 {
+	font-family: var(--font);
+	color:#000;
+	font-size: 32px;
+	letter-spacing: 1.3px;
+}
+.sec-1 h4 {
+	font-family: var(--font);
+	color:#fff;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	margin:10px 0px;
+}
+
+.sec-1 p  {
+	color:#fff;
+	font-size:12px;
+
+}
+
+.sec-1 .commonbtn  {
+	background-color: #fff;
+}
+/* End sec-1 */
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* start sec-2 */
+.sec-2 {
+	background-color: var(--sec-color);
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+.sec-2 figure {
+	text-align: center;
+}
+.sec-2 figure img {
+	width:90%;
+	margin-right: auto;
+	margin-left: auto;
+	outline:2px solid var(--green);
+	border:5px solid #f3f3f3;
+	border-radius: 5px;
+
+}
+.sec-2 article {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+
+	
+}
+.sec-2 header.commonheader {
+	width: 100%;
+}
+
+.sec-2 article > p {
+	color:#63666f
+}
+.sec-2 .content {
+	border:2px solid #ffffff;
+	margin-top:30px;
+	padding:20px ;
+}
+.sec-2 .content .inner {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom:10px;
+}
+.sec-2 .content .commonbtn:first-child {
+	background-color: #fff;
+	border-radius: 10px;
+	width:190px
+}
+.sec-2 .content p {
+	color:#63666f;
+}
+/* End sec-2 */
+
+/* Start Sec-3 */
+.sec-3 {
+	background-color: var(--sec-color);
+	padding-bottom:60px;
+	
+}
+.sec-3 .commonheader {
+	width:96%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.sec-3 .card-1 {
+	width:96%;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding:10px 15px;
+	margin-bottom: 5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.sec-3 .card-1 div  {
+	width:75%;
+	color:#7a7a7a
+}
+
+.sec-3 .card-1 div p:first-of-type {
+	margin:6px 0px;
+	text-align: justify;
+}
+.sec-3 .card-1 i {
+	width:20%;
+	display:inline-block;
+	font-size:50px;
+	color:#7a7a7a;
+	margin-top:5px;
+}
+.sec-3 .card-1 .last {
+	text-align: end;
+	font-size: #7a7a7a;
+	text-transform: uppercase;
+	font-size:11px;
+}
+/* End Sec-3 */
+
+/* Start sec-4 */
+.sec-4 {
+	background-image: url(../images/Banner-2.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+	padding:50px;
+}
+.sec-4 .commonheader:before {
+	background-color: #333;
+}
+.sec-4 header p {
+	color:#000;
+}
+.sec-4 section p {
+	/* width: */
+	color: #333;
+	margin:40px 0px;
+}
+.sec-4 section a {
+	display: block;
+	width:fit-content;
+	background-color: #000;
+	color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight: bold;
+}
+
+/* End sec-4 */
+
+/* Start Section 5 */
+.sec-5 {
+	padding:70px 0px;
+
+}
+.sec-5 .commonheader {
+	width:90%;
+	margin-right:auto;
+	margin-left:auto;
+}
+.sec-5 .card-1 {
+	width:90%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: #f3f3f3;
+	margin-bottom: 5px;;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+.sec-5 .card-1 >h4 {
+	color:var(--green);
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.sec-5 .card-1 >p {
+	background-color: var(--green);
+	color:#fff;
+	text-align:center;
+	padding:26px;
+	font-weight: bold;
+	font-size: 26px;
+	/* width: 100%; */
+}
+.sec-5 .card-1 .con-1 {
+	padding:15px;
+	color:#7d7e82;
+}
+.sec-5 .card-1 >p sub,
+.sec-5 .card-1 >p sup {
+	font-size:10px;
+}
+.sec-5 .card-1 .con-1 >div {
+	padding:10px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.sec-5 .card-1 .con-1 >div i.fa-check {
+	color:var(--green);
+}
+.sec-5 .card-1 .con-1 >div i.fa-xmark {
+	color:#dc3d42;
+	/* font-size:30px; */
+}
+.sec-5 .card-1 a {
+	display: block;
+	/* text-align: center; */
+	background-color: var(--green);
+	color:#fff;
+	width:fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.sec-5 .card-1 h4.change-1 {
+	color:#000;
+}
+.sec-5 .card-1 h4.change-1+ p {
+	background-color: #000;
+}
+.sec-5 .card-1 h4.change-1 ~ a {
+	background-color: #000;
+}
+/* End Section 5 */
+
+
+
+
+/* =-------------------------------------------= */
+/* Start Sec-6 */
+
+.sec-6 header  {
+	width:90%;
+	margin-left:auto;
+	margin-right: auto;
+}
+.sec-6 figure {
+	border:5px solid #fff;
+	outline: 5px solid #f3f3f3;
+	border-radius: 5px;
+}
+.sec-6 figure {
+	width:90%;
+	margin-left:auto;
+	margin-right :auto;
+	margin-bottom:20px;
+
+}
+.sec-6 figure img,
+.sec-6 figure figcaption {
+	display: block;
+	width:100%;
+	
+}
+.sec-6 figcaption {
+	background-color: #f3f3f3;
+	padding:20px;
+	/* margin-bottom:20px; */
+}
+.sec-6 figcaption>div:first-of-type {
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding:15px 0px;
+	border-bottom: 2px dotted var(--green);
+
+}
+.sec-6 figcaption>div>div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:var(--green);
+}
+
+.sec-6 figcaption>div:first-of-type>div:last-of-type  i {
+	margin-left:10px;
+}
+.sec-6 figcaption>div:first-of-type>div  i {
+	margin-right: 10px;
+}
+.sec-6 figcaption>div:last-of-type  p:first-of-type{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.sec-6 figcaption>div:last-of-type  p:last-of-type {
+	color:#333;
+}
+.sec-6 figcaption a{
+	display: block;
+	width: fit-content;
+	margin-left: auto;
+	border-radius: 30px;
+	border: 2px solid var(--green);
+}
+/* =-------------------------------------------= */
+
+
+/* start footer */
+
+footer {
+	background-color: #f3f3f3;
+
+}
+footer .foot-1 {
+	width:90%;
+	margin-left:auto;
+	margin-right: auto;
+}
+footer .foot-1 >div {
+	display: flex;
+	align-items: center;
+	padding:6px;	
+}
+footer .foot-1 .one {
+	margin-top:20px;
+}
+footer .foot-1 >div p {
+	margin-left:10px;
+}
+footer .foot-1 >div i {
+	color:var(--green)
+}
+
+/* foot 2 */
+footer .foot-2 {
+	width:90%;
+	margin-left:auto;
+	margin-right: auto;;
+}
+footer .foot-2 a {
+	display: inline-block;
+	margin-left:14px;
+	text-decoration: none;
+	color:#000;
+}
+footer .foot-2>div {
+	display: flex;
+	align-items: center;
+	margin-bottom:15px;
+	/* justify-content: center; */
+}
+footer .foot-2 i {
+	font-size:6px;
+	color:var(--green);
+	position: relative;
+	
+}
+footer .foot-2 i:after {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	width:12px;
+	height:12px;
+	border:2px solid var(--green);
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%)
+}
+
+
+/* foot-4 */
+.foot-4 header
+,.foot-4 article {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.foot-4 article {
+	width:100%;
+}
+
+.foot-4 [type="email"]{
+	border: 0px;
+	outline: 0;
+	padding:10px;
+}
+.foot-4 [type="submit"] {
+	padding:10px;
+	background-color: var(--green);
+	border: 0px;
+	outline: 0px;
+	color:#fff;
+	text-transform: uppercase;
+}
+.foot-4 form+p {
+	margin:20px 0px;
+}
+.foot-4 .icons i{
+	margin-right:10px;
+}
+
+.final {
+	color:#333;
+}
+footer .container {
+	padding:30px 0px;
+}
+
+.foot-4 form {
+	position: relative;
+}
+button[type='submit'] {
+	position:absolute;
+	width:100px;
+}
+footer .foot-4 i {
+	font-size: 12px;
+}

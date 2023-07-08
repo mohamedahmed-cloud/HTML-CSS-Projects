@@ -1,0 +1,44 @@
+.container {
+    max-width:500px;
+    display: flex;
+    height:98vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-color: #eee;
+}
+table {
+    width:100%;
+    /* background-color: #fff; */
+    background-color: #404D5E;
+
+}
+table thead th {
+    padding:0px 15px;
+}
+table thead th input {
+    width:100%;
+    border:none;
+    outline:none;
+    color:gray;
+    background-color: #404D5E;
+    /* border-bottom: 2px solid ; */
+    height:60px;
+}
+table thead .last input {
+    border-top:3px solid #3A4655;
+}
+table tbody button{
+    height:50px;
+    display: inline-block;
+    width:100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #3A4655;
+}
+table tbody td button {
+    font-weight: 600;
+}

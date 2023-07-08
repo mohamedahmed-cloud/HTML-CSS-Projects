@@ -1,0 +1,72 @@
+.fupper {
+    text-transform: capitalize;
+}
+.aupper {
+    text-transform: uppercase;
+}
+.bg-mcolor {
+    background-color: #ffd01d;
+}
+.hcolor {
+    color: #ffd01d;
+}
+.wcolor {
+    color:#ffffff
+}
+
+/* Decoration for first section */
+.extra {
+    background-image: linear-gradient(to right, #F6BC00, #fcd00f);
+    height:20px;
+    width:100%;
+}
+
+.r {
+    position: relative;
+    cursor: pointer;
+}
+nav .links ul span {
+    position:absolute;
+    width:30px;
+    height:30px;
+    /* background-color: red; */
+    border-radius: 50%;
+    border:2px solid gray;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+nav .container .nav-only .links  ul li a:hover>span{
+    color:#ffd01d;
+}
+/* End Decoration for frist section */
+.btn {
+    text-decoration: none;
+    padding:10px 30px;
+    background-color: #fff;
+    background-color: #E9E8E8;
+    color:#16213E; 
+    display: inline-block;
+    border-radius: 20px 20px;
+    font-weight: bold;
+}
+nav .container .sec article.left a:hover
+,.btn:hover {
+    background-color: #fff;
+    color:#181818;
+}
+
+/* Code to make scroll bar */
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+    background-color: #F5F5F5;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+ 
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

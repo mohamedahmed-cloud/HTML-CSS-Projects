@@ -1,0 +1,119 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html {
+    font-size:16px;
+    font-family: sans-serif;
+    background-color: #000;
+
+}
+:root {
+    --main-width:920px;
+    --main-padding:10px;
+    --main-colorblue:#3C84AB;
+    --main-colorgray:#ccc;
+}
+
+/* End Universal */
+
+/* Start  Repeated Class  */
+.upper {
+    text-transform: uppercase;
+}
+
+.clear {
+    clear:both;
+}
+.active {
+    background-color: #CD0404;
+}
+/* End  Repeated Class   */
+
+
+
+/* Start Main Section */
+.main {
+    width:var(--main-width);
+    /* border:1px solid red; */
+    margin:0px auto;
+    background-image:url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    height:115px;
+    background-color: #000;
+    
+}
+.main .icon  {
+    float:right;
+    margin-top:10px;
+    margin-right:10px;
+}
+.main .icon i {
+    opacity:.5;
+    cursor:pointer;
+}
+.main .icon i:hover {
+    opacity: 1;
+}
+
+/* End Main Section */
+
+/* Start Nav bar */
+.nav {
+    width:var(--main-width);
+    background-color: #000;
+    padding:20px;
+    padding-left:10px;
+    margin:0 auto;
+    border:thin solid var(--main-colorgray);
+}
+.nav ul li {
+    list-style-type: none;
+    display:inline-block;
+}
+.nav ul li a {
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav ul li a:hover {
+    background-color: var(--main-colorblue);
+    /* pad */
+}
+/* End Nav bar */
+
+/* Start contact Section */
+    /* Style for image */
+.content .image  {
+    width:var(--main-width);
+    margin:auto;
+    padding:10px;
+    background-color: var(--main-colorgray);
+}
+.content .image img {
+    display: block;     
+
+}
+
+
+
+/* End contact Section */
+
+/* Start footer Section */
+
+.footer {
+    background-color: var(--main-colorgray);
+    text-align: center;
+    width:var(--main-width);
+    margin:0 auto;
+}
+.footer p{
+    border-top:thin solid gray;
+    margin:0px 10px;
+    padding:var(--main-padding);
+    color:gray;
+
+}
+/* End footer Section */

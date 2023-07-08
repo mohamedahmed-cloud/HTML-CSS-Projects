@@ -1,0 +1,30 @@
+:root {
+    --main-width:920px;
+    --main-padding:10px;
+    --main-colorblue:#3C84AB;
+    --main-colorgray:#ccc;
+}
+.content {
+    width: var(--main-width);
+    background-color: var(--main-colorgray);
+    margin:0px auto;
+}
+.content .txt p{
+    padding:10px;
+    text-align: justify;
+}
+.big-paragrahp {
+    margin-bottom:20px;
+}
+.model-image {
+    display:block;
+    width:95%;    
+    text-align: center;
+} 
+
+.model-image img{
+    margin:10px 20px;
+}
+.end {
+    padding-bottom:10px;   
+}
